@@ -1,0 +1,124 @@
+/* tags
+    
+    h1 = element
+    #h1 = id
+    .h1 = class
+ 
+    
+ font-family = 
+        serif = 
+            Times New Roman
+            Georgia
+            Garamond
+            Lucida Bright
+            Lucida Fax
+            Palatino
+            Palatino Linotype
+            Palladio
+            URW Palladio
+        sans-serif = 
+            Arial
+            Verdana
+            Helvetica
+            Open Sans
+            Fira Sans
+            Lucida Sans
+            Lucida Sans Unicode
+            Trebuchet MS
+            Liberation Sans
+            Nimbus Sans L
+        monospace =
+            Courier New
+            Lucida Console
+            Monaco
+            Fira Mono
+            DejaVu Sans Mono
+            Menlo
+            Consolas
+            Liberation Mono
+        cursive = 
+            Brush Script MT
+            Brush Script Std
+            Lucida Calligraphy
+            Lucida Handwriting
+            Apple Chancery
+        fantasy =
+            Copperplate
+            Papyrus
+            Herculanum
+            Party LET
+            Curlz MT 
+            Harrington
+ font-size =
+    absolute - set specific size and does not allow user to change
+    relative - sets the size relative to surrounding elements and allows user to change
+        pixels - sets exact size of text
+        Em - 1em is equal to the current font size (16px) - formula: pixels/16=em
+        Percent - set a default font-size in percent for the <body> element
+    responsive - viewport width (Viewport is the browser window size)
+        vw -  1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm
+ font-style
+        The four links states are:
+            a:link - a normal, unvisited link
+            a:visited - a link the user has visited
+            a:hover - a link when the user mouses over it
+                (a:hover MUST come after a:link and a:visited)
+            a:active - a link the moment it is clicked
+                (a:active MUST come after a:hover)
+ font-weight - normal, bold, 900 (thicker)
+    The font property is a shorthand property for:
+        font-style
+        font-variant
+        font-weight
+        *font-size/line-height
+        *font-family
+ line-height
+ text-align
+ color
+    color - text color
+    background-color - background of the element
+    border - outline of the element
+    
+ 
+ background-color
+ width
+ height
+ margin (top, right, bottom, left) - space between the object and the inside edge of the element
+ padding (top, right, bottom, left) - space around the object
+ 
+*/
+
+/* 
+ .serif {
+    font-family: Times, "Times New Roman", Georgia, serif;
+  }
+  
+  .sansserif {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+  .monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  .cursive {
+    font-family: cursive;
+  }
+  
+  .fantasy {
+    font-family: fantasy;
+  }
+  
+  .emoji {
+    font-family: emoji;
+  }
+  
+  .math {
+    font-family: math;
+  }
+  
+  .fangsong {
+    font-family: fangsong;
+  }
+
+*/

@@ -1,0 +1,40 @@
+.center {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.big {
+    font-size: 4em;
+}
+.small {
+    font-size: .5em;
+}
+.bold {
+    font-weight: bold;
+}
+.fun {
+    font-family: 'Curlz MT', 'Papyrus', fantasy;
+}
+.styledFont {
+    color: pink;
+    font-size: 2em;
+    background-color: navy;
+    border-color: olivedrab;
+    border-radius: 5px;
+    border-style: dotted;
+    border-width: 5px;
+}
+#styledImage {
+    border: red solid 5px;
+}
