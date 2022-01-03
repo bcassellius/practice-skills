@@ -4,7 +4,8 @@ function grow() {
     document.getElementById('button1').disabled = true;
     document.getElementById('button2').disabled = false;
     document.getElementById('button3').disabled = false;
-    document.getElementById('box').style = 'height:200px; width:200px; background-color:orange; margin:25px'
+    document.getElementById('box').style = 'height:200px; width:200px; background-color:orange; margin:25px; opacity:100%'
+    document.getElementById('box').style.transition = '2s';
 };
 
 document.getElementById('button2').onclick = function() {blue()};
