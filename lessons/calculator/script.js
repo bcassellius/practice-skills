@@ -2,6 +2,8 @@ class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
         this.previousOperandTextElement = previousOperandTextElement
         this.currentOperandTextElement = currentOperandTextElement
+        this.currentOperand = '' // adjustment recommended from https://stackoverflow.com/questions/69052775/uncaught-typeerror-cannot-read-properties-of-undefined-reading-tostring-wh
+        this.clear()
     }
 
     clear() {
@@ -15,8 +17,7 @@ class Calculator {
     }
 
     appendNumber(number) {
-        if (number === '.' && this.currentOperand.includes('.')) return
-        this.currentOperand = this.currentOperand.toString() + number.toString()
+        this.currentOperand += number // adjustment recommended from https://stackoverflow.com/questions/69052775/uncaught-typeerror-cannot-read-properties-of-undefined-reading-tostring-wh
     }
 
     chooseOperation(operation) {
