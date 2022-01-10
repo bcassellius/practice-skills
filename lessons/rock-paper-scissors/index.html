@@ -6,16 +6,28 @@
   </head>
   <body>
     <h1 style="text-align:center; margin-top:20%;">
-      Let's play Rock Paper Scissors!<br />Refresh to play again!
+      <img src='rps.jpg' alt='Photo by Pavel Danilyuk' style='text-align:center; margin-top:20%; width: 250px;'>
+      <!-- Photo by Pavel Danilyuk from Pexels -->
+      <br />Let's play Rock Paper Scissors!<br />Refresh to play again!<br />     
     </h1>
+    
+    
+
+    <h3>Rules:
+      <li>play 3 rounds (player with the highest score wins)</li>
+      <li>⛰ rock crushes scissors (rock wins)</li>
+      <li>✂️ scissors cut paper (scissors wins)</li>
+      <li>📜 paper covers rock (paper wins)</li>
+      <li>2 of the same items cancel each other (tie)</li>
+    </h3>
     <script type="text/javascript">
       // Create an array of the three game choices (Rock, Paper, or Scissors).
       var gameChoices = ['r', 'p', 's'];
 
       // Create variables to hold the number of wins, losses, and ties. They start at 0.
-      var win = '';
-      var loss = '';
-      var tie = '';
+      var win = '0';
+      var loss = '0';
+      var tie = '0';
 
       for (var i = 0; i < 3; i++) {
         // Randomly choose a choice from the gameChoices array. This is the computer's turn.
